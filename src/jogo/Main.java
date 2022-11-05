@@ -1,5 +1,7 @@
 package jogo;
 
+import javax.swing.JOptionPane;
+
 import jplay.GameImage;
 import jplay.Keyboard;
 import jplay.URL;
@@ -16,7 +18,7 @@ public class Main {
 			janela.update();
 			
 			if(teclado.keyDown(Keyboard.ENTER_KEY)) {
-				
+				JOptionPane.showMessageDialog(null, "Funcinando");
 			}
 		}
 	}
